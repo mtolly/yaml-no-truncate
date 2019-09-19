@@ -1,0 +1,7 @@
+resolver: lts-14.6
+packages:
+- .
+extra-deps:
+- git: https://github.com/snoyberg/yaml.git
+  commit: 485df7bb08d7ed17a0be363ff493ed27e77fda13
+  subdirs: [yaml, libyaml]
